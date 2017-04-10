@@ -10,7 +10,6 @@ import {
   Link
 } from 'react-router-dom';
 
-// import AppContainer from './AppContainer.jsx'
 import store from './store';
 
 const AppContainer = () => {
@@ -20,7 +19,7 @@ const AppContainer = () => {
   );
 };
 
-// console.log('HASHHISTORY', browserHistory, "Router", Router)
+
 ReactDOM.render(
   <Provider store={store}>
     <Router>
